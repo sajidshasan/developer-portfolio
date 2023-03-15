@@ -28,6 +28,7 @@ section {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    margin-top: 0;
 }
 
 .nav-title {
@@ -38,7 +39,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li {
